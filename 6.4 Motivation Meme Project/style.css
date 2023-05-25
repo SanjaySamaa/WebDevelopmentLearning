@@ -7,7 +7,7 @@ body{
     margin:5% 25%;
     /* background-color: aqua; */
 }
-img{
+.container img{
     border:5px solid white;
     width: 100%;
 }
