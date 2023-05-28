@@ -1,1 +1,22 @@
 /* Write your code here: */
+h1, h2{/*grouping selector select multiple*/
+    color: blueviolet;
+}
+.box > .done{ /*deciedent selector selects the parent and child only one level inheritance*/
+    color: firebrick;
+}
+.box li{ /*ansistor selector selects parent and childs*/
+    color:blue;
+}
+/* .box ul li{
+    color:blue;
+} */
+li.done{/*super specific seletor selects that has both */
+    color: green;
+}
+ul p.done{/*combining selector*/
+    font-size: 0.5rem;
+}
+/* ul > p.done{ combining selector it is same as above
+    font-size: 0.5rem;
+} */
