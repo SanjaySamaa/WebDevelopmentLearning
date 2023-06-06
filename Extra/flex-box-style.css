@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 70vh;
+
+}
+.item{
+    width: 20vw;
+    height: 20vh;
+    flex-basis: 100px;
+}
+.red{
+    background-color: red;
+    order:1;
+    /* align-self: flex-start */
+    align-self: flex-end;
+}
+.blue{
+    background-color: blue;
+
+}
+.green{
+    background-color: green;
+}
