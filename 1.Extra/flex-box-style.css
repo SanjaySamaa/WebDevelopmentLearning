@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     height: 70vh;
-
+    font-style: bold;
 }
 .item{
     width: 20vw;
