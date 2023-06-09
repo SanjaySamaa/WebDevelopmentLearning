@@ -15,7 +15,7 @@
 .red{
     background-color: red;
     order:1;
-    /* align-self: flex-start */
+    /* align-self: flex-start */ /*specific change hunxa matlab red dibba*/
     align-self: flex-end;
 }
 .blue{
