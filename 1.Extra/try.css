@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: inline-block;
+    background-color: red;
+    width: 100vw;
+    height: 7vh;
+}
+.nav > nav > ul > li{
+    display: inline;
+    list-style: none;
+    margin: 2%;
+    
+}
+.nav > nav > ul > li >a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+    
+}
+.nav > nav > ul{
+   text-align: left;
+   margin-top: 1%;
+}
+.contents{
+    display: flex;
+    height: 40vh;
+    margin: 2vh;
+}
+.items > img{
+    width: 100%;
+    height:70%;
+}
+.items>h3{
+    font-size: larger;
+    font-weight: bolder;
+    margin: 2%;
+}
+.items > p{
+    text-align: justify;
+    margin: 2%;
+}
+.items{
+flex-direction: row;
+flex:1 0 0;
+margin: 1vh 2vw;
+border: 2px solid black;
+}
+
+
+
