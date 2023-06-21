@@ -7,6 +7,7 @@ body{
     background-color: #9AC5F4;
     position: relative;
     padding-top: 100px;
+    
 }
 h1{
     font-family: 'Sacramento', cursive;
@@ -22,7 +23,7 @@ h2{
     color: #356ca7;
     font-size: 2.5em;
     padding-bottom:10px;
-    
+    font-weight: normal;
 }
 h3{
     color: #356ca7;
@@ -36,6 +37,9 @@ h3{
     position: absolute;
     left: 250px;
     bottom: 300px;
+}
+.mountain-img{
+    position: absolute;
 }
 .pro{
     text-decoration: underline;
@@ -116,4 +120,9 @@ a>img:hover{
     color: white;
     font-size: 20px;
     margin: 0;
+}
+@media (max-width: 1000px){
+ body{
+    min-width: 1000px;
+ }
 }
