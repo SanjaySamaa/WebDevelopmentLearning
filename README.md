@@ -1,2 +1,3 @@
 # WebDevelopmentLearning
-taking online course
+Taking Online Course
+Full Stack Development
