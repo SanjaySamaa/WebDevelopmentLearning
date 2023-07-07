@@ -38,3 +38,4 @@
     $("button").on("click",function(){
         $("h1").slideUp().slideDown().fadeOut().fadeIn().animate({opacity:0.5});//all can be done sepeately and also have toggle option like slideToggle(); and in animate we can only use properties with number value
     });
+    
