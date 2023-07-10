@@ -1,0 +1,14 @@
+{
+  "name": "calculator-node",
+  "version": "1.0.0",
+  "description": "calculator with node and express js",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SanjaySamaa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
