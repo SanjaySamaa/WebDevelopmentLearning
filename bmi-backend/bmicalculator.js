@@ -8,8 +8,8 @@ app.get("/",function(req,res){
 });
 app.post("/",function(req,res){
     // console.log(req.body);
-        var weight = Number(req.body.weight);
-        var height = Number(req.body.height);
+        var weight = parseFloat(req.body.weight);
+        var height = parseFloat(req.body.height);
         var result = Math.round(weight/Math.pow(height,2));
         res.send(`<h1 style="text-align:center ; color:red;">Your BMI is ${result}</h1>`);
    
