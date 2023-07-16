@@ -1,0 +1,5 @@
+#this is a comment
+#specify name for ignoring particular file like secret.txt
+secrets.txt
+# *.txt it will remove all the files with extention .txt
+
