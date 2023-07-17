@@ -7,6 +7,31 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+<div class="to-do-list-container">
   <h1>To Do List Of <%= dayOfWeek %></h1>
+  <h2>To Add</h2>
+  <form action="/" method="post">
+  <label for="add-item">Name : <input type="text" name="item"></label>
+  <input type="submit" value="Add Item">
+  <!-- <table class="add-item">
+      <tr>
+       <th>
+          To Do Lists --
+       </th>
+      </tr>
+  </table> -->
+</form>
+
+</div>
+<div>
+  <ul>
+    <!-- <%items.forEach(element => {%>
+      <li><%= element %></li>      
+    <%});%> -->
+    <%for(var i = 0; i<items.length;i++){%>
+      <li><%= items[i] %></li>
+    <%}%>
+  </ul>
+</div>
 </body>
 </html>

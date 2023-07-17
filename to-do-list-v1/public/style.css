@@ -1,17 +1,4 @@
-/* h1{
-    text-align: center;
-} */
-/* .to-do-list-container{
-    /* display: flex; */
-    /* align-items: center;
-    justify-content: center; */
-    body{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-    }
-    .to-do-list-container{
-        /* justify-content: center; */
-        /* align-items: center; */
-    }
+h1{
+    color: purple;
+    
+}
