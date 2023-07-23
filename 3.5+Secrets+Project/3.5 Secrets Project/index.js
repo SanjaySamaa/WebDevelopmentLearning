@@ -5,17 +5,16 @@ import express from "express";
 import bodyParser from "body-parser";
 import {dirname} from "path";
 import { fileURLToPath } from "url";
+const middleWare = require(__dirname+"/middleWare.js")
+const app = express();
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-let password;
+let isVerified = false;
 const savedPassword = "ILoveProogramming";
 
 app.use(bodyParser.urlencoded({extended:true}));
-const middlewarePasswordChecker = (req,res,next)=>{
-    password = req.body.password;
-    next();
-};  
-app.use(middlewarePasswordChecker);
+ 
+app.use(middleware);
 
 app.get("/",(req,res)=>{
     res.sendFile(__dirname+"/public/index.html");
