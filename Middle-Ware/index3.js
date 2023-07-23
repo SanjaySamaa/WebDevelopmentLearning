@@ -4,6 +4,7 @@ const app = express();
 const port = 3000;
 const middleware = (req,res,next)=>{
   console.log("request method : ",req.method);
+  console.log("request url :",req.url);
   next();
 };
 // const print = (req,res,next)=>{
