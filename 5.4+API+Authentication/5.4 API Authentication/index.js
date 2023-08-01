@@ -56,7 +56,8 @@ app.get("/basicAuth", async (req, res) => {
     res.render("index",{content:result});
     }
     catch(error){
-      res.render("index",{content:error});
+      // res.render("index",{content:error});
+      res.status(404).send(error.response.data);
     }
 
 });
